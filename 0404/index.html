@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Egzamin - Timer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Timer</h1>
+
+    <div class="time-selection">
+      <label for="exam-time">Wybierz czas rozpoczęcia:</label>
+      <input type="time" id="exam-time" name="exam-time" required>
+    </div>
+
+    <div class="timer">
+      <p>Egzamin rozpocznie się o: <span id="exam-start-time">-</span></p>
+      <p>Czas pozostały: <span id="time-left">45:00</span></p>
+    </div>
+
+    <button id="start-btn">Start</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
